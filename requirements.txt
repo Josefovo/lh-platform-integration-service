@@ -1,0 +1,6 @@
+pyyaml
+pymongo==4.3.3
+requests
+https://s3.eu-central-1.amazonaws.com/leadhub-packages/lh-process-dispatcher/lh_process_dispatcher-0.0.8-py3-none-any.whl
+https://s3.eu-central-1.amazonaws.com/leadhub-packages/lh-rpc-python/lhrpc-0.4.21-py3-none-any.whl
+https://s3.eu-central-1.amazonaws.com/leadhub-packages/lh-mongo-queue-python/lh_mongo_queue-0.0.36-py3-none-any.whl

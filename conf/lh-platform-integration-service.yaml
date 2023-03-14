@@ -1,0 +1,16 @@
+lh_platform_integration_service:
+  log:
+    file: ../lh-platform-integration-service.log
+  db:
+    uri: mongodb://127.0.0.1:27333/platform_integration_service
+  broker_address: tcp://127.0.0.1:3334
+  shopify:
+    api_key: 27a..........................01b
+    api_secret_key: b52..........................e6e
+    app_slug: messa1
+  account_service:
+    address: tcp://127.0.0.1:3333
+    service_name: lh_account_service
+  ecommerce_feed_service:
+    address: tcp://127.0.0.1:3333
+    service_name: lh_ecommerce_feed_service
